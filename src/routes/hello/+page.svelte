@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Title from 'components/Title.svelte'
+  import Title from '$lib/components/Title.svelte'
 </script>
 
 <Title text="Hello page"></Title>

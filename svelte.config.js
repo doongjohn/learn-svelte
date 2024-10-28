@@ -14,10 +14,6 @@ const config = {
 		adapter: adapter({
       fallback: "404.html",
     }),
-
-    alias: {
-      'components': 'src/components'
-    },
 	}
 };
 

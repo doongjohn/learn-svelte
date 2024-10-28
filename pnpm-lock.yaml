@@ -9,34 +9,34 @@ importers:
   .:
     devDependencies:
       '@sveltejs/adapter-auto':
-        specifier: ^3.0.0
+        specifier: ^3.3.1
         version: 3.3.1(@sveltejs/kit@2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.3)(vite@5.4.10))(svelte@5.1.3)(vite@5.4.10))
       '@sveltejs/adapter-static':
         specifier: ^3.0.6
         version: 3.0.6(@sveltejs/kit@2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.3)(vite@5.4.10))(svelte@5.1.3)(vite@5.4.10))
       '@sveltejs/kit':
-        specifier: ^2.0.0
+        specifier: ^2.7.3
         version: 2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.3)(vite@5.4.10))(svelte@5.1.3)(vite@5.4.10)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^4.0.0
         version: 4.0.0(svelte@5.1.3)(vite@5.4.10)
       prettier:
-        specifier: ^3.3.2
+        specifier: ^3.3.3
         version: 3.3.3
       prettier-plugin-svelte:
-        specifier: ^3.2.6
+        specifier: ^3.2.7
         version: 3.2.7(prettier@3.3.3)(svelte@5.1.3)
       svelte:
-        specifier: ^5.0.0
+        specifier: ^5.1.3
         version: 5.1.3
       svelte-check:
-        specifier: ^4.0.0
+        specifier: ^4.0.5
         version: 4.0.5(svelte@5.1.3)(typescript@5.6.3)
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.6.3
         version: 5.6.3
       vite:
-        specifier: ^5.0.3
+        specifier: ^5.4.10
         version: 5.4.10
 
 packages:

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Title from 'components/Title.svelte';
-	import { counter } from '../spa.svelte';
+	import Title from '$lib/components/Title.svelte';
+	import { counter } from '$lib/spa.svelte';
 </script>
 
 <Title text="Yay"></Title>
