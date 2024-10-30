@@ -1,3 +1,10 @@
-<h1>SPA</h1>
-<p>navigate to <a href="/spa/wow">wow</a></p>
-<p>navigate to <a href="/spa/yay">yay</a></p>
+<script lang="ts">
+	import Title from '$lib/components/Title.svelte'
+</script>
+
+<main>
+  <Title text="SPA"></Title>
+	<div>
+		<p>Pages under route "spa" is rendered via client side routing.</p>
+	</div>
+</main>
