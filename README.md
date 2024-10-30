@@ -3,7 +3,7 @@
 ## Creating a project
 
 ```sh
-pnpm dlx sv create project-name
+pnpx sv create project-name
 cd project-name
 pnpm i
 ```
@@ -18,5 +18,9 @@ pnpm dev
 
 ```sh
 pnpm run build
+```
+
+```sh
 pnpm run preview
+pnpx http-server ./build
 ```

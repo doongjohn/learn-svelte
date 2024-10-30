@@ -12,3 +12,11 @@
 	<button onclick={counterAdd}>+</button>
 	<button onclick={counterSub}>-</button>
 </main>
+
+<style>
+	button {
+		width: 2rem;
+		height: 2rem;
+		padding: 0;
+	}
+</style>
