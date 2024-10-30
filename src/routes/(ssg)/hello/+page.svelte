@@ -3,6 +3,8 @@
 </script>
 
 <main>
-	<Title text="Hello page"></Title>
-	<p>This is a hello page.</p>
+	<hgroup>
+		<Title text="Hello page"></Title>
+		<p>This is a hello page.</p>
+	</hgroup>
 </main>
