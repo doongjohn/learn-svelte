@@ -1,9 +1,9 @@
 <script>
-	import '@picocss/pico'
+  import '@picocss/pico'
 
-	let { children } = $props()
+  let { children } = $props()
 </script>
 
 <div class="container">
-	{@render children()}
+  {@render children()}
 </div>

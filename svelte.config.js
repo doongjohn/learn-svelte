@@ -1,20 +1,20 @@
-import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-static'
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
 
-const NODE_ENV = process.env.NODE_ENV;
+const NODE_ENV = process.env.NODE_ENV
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: vitePreprocess(),
+  preprocess: vitePreprocess(),
 
-	kit: {
-		adapter: adapter({
-      fallback: '404.html',
+  kit: {
+    adapter: adapter({
+      fallback: '404.html'
     }),
     paths: {
-      base: NODE_ENV === 'development' ? '' : '/learn-svelte',
-    },
-	}
-};
+      base: NODE_ENV === 'development' ? '' : '/learn-svelte'
+    }
+  }
+}
 
-export default config;
+export default config
