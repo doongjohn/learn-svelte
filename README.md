@@ -1,5 +1,7 @@
 # learn-svelte
 
+<https://doongjohn.github.io/learn-svelte>
+
 ## Creating a project
 
 ```sh
