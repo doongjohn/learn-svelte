@@ -35,14 +35,16 @@ pnpx http-server ./build
 - Add `.nojekyll` in the `static/` folder.
 
 Install `gh-pages`.
+
 ```sh
 pnpm i -D gh-pages
 ```
 
 Add a deploy script to `package.json`.
-```json
+
+```jsonc
   "scripts": {
-    ...
+    // ...
     "deploy": "vite build && gh-pages -d build -t true"
   },
 ```
