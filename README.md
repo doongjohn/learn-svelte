@@ -24,7 +24,6 @@ pnpm run build
 
 ```sh
 pnpm run preview
-pnpx http-server ./build
 ```
 
 ## Deploy to Github Pages
