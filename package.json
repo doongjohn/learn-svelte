@@ -20,9 +20,9 @@
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
     "gh-pages": "^6.2.0",
     "prettier": "^3.3.3",
-    "prettier-plugin-svelte": "^3.2.7",
-    "svelte": "^5.1.14",
-    "svelte-check": "^4.0.6",
+    "prettier-plugin-svelte": "^3.2.8",
+    "svelte": "^5.1.16",
+    "svelte-check": "^4.0.7",
     "typescript": "^5.6.3",
     "vite": "^5.4.11"
   }
