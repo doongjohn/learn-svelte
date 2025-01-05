@@ -44,12 +44,12 @@ Add a deploy script to `package.json`.
 ```jsonc
   "scripts": {
     // ...
-    "deploy": "vite build && gh-pages -d build -t true"
+    "deploy": "vite build && gh-pages -d build -t"
   },
 ```
 
 > [!NOTE]
-> Option `-t` must be `true` to include `.nojekyll`.
+> Option `-t` must be used to include `.nojekyll`.
 
 ```sh
 pnpm run deploy
