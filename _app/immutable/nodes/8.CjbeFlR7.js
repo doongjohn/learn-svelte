@@ -1,0 +1,1 @@
+import{a as i,t as m}from"../chunks/BKUlHf1-.js";import"../chunks/B-j9LMGT.js";import{f as r,i as n,r as t}from"../chunks/C6834TGx.js";import{T as s}from"../chunks/Bgu6XQLr.js";var g=m("<main><hgroup><!> <p>This is about page.</p></hgroup></main>");function c(p){var a=g(),o=r(a),e=r(o);s(e,{text:"About page"}),n(2),t(o),t(a),i(p,a)}export{c as component};
