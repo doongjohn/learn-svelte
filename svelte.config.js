@@ -6,7 +6,6 @@ const NODE_ENV = process.env.NODE_ENV
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   preprocess: vitePreprocess(),
-
   kit: {
     adapter: adapter({
       fallback: '404.html'
