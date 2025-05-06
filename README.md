@@ -5,9 +5,8 @@
 ## Creating a project
 
 ```sh
-pnpx sv create project-name
+pnpm dlx sv create project-name
 cd project-name
-pnpm i
 ```
 
 ## Developing
@@ -28,29 +27,35 @@ pnpm run preview
 
 ## Deploy to Github Pages
 
-- Use `adapter-static` and set fallback to `404.html` for CSR.
+- In `svelte.config.js` change adapter to `adapter-static` and set fallback to `'404.html'` for CSR.
+    ```sh
+    pnpm add -D @sveltejs/adapter-static
+    ```
+    ```js
+    adapter: adapter({
+      fallback: '404.html'
+    }),
+    ```
 - In `svelte.config.js` set `paths.base` to `process.env.NODE_ENV === 'development' ? '' : '/repo-name'`.
+    ```js
+    paths: {
+      base: process.env.NODE_ENV === 'development' ? '' : '/repo-name'
+    }
+    ```
 - Use `import { base } from '$app/paths'` for `href` links.
 - Add `.nojekyll` in the `static/` folder.
-
-Install `gh-pages`.
-
-```sh
-pnpm i -D gh-pages
-```
-
-Add a deploy script to `package.json`.
-
-```jsonc
-  "scripts": {
-    // ...
-    "deploy": "vite build && gh-pages -d build -t"
-  },
-```
-
-> [!NOTE]
-> Option `-t` must be used to include `.nojekyll`.
-
-```sh
-pnpm run deploy
-```
+- Add a deploy script using `gh-pages` to `package.json`.
+    ```sh
+    pnpm add -D gh-pages
+    ```
+    ```jsonc
+      "scripts": {
+        // ...
+        "deploy": "vite build && gh-pages -d build -t"
+      },
+    ```
+    > [!NOTE]
+    > Option `-t` must be used to include `.nojekyll`.
+    ```sh
+    pnpm run deploy
+    ```
