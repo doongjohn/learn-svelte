@@ -54,8 +54,9 @@ pnpm run preview
         "deploy": "vite build && gh-pages -d build -t"
       },
     ```
-    > [!NOTE]
-    > Option `-t` must be used to include `.nojekyll`.
     ```sh
     pnpm run deploy
     ```
+
+> [!NOTE]
+> Option `-t` must be used to include `.nojekyll`.
