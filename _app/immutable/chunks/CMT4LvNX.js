@@ -1,1 +1,0 @@
-import{f as o,a as s}from"./Ce5PBPOL.js";import{t as f,f as m,r as p}from"./DaRmUlFe.js";import{s as i}from"./Do_U6Fh3.js";var h=o("<h1> </h1>");function c(r,e){var t=h(),a=m(t,!0);p(t),f(()=>i(a,e.text)),s(r,t)}export{c as T};
