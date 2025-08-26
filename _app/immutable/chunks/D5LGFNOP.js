@@ -1,0 +1,1 @@
+import"./Bzak7iHL.js";import{D as o,K as s,F as m,G as p,I as f}from"./DTn7-V41.js";import{s as i}from"./BL-vpPEF.js";var h=o("<h1> </h1>");function c(e,r){var t=h(),a=p(t,!0);f(t),s(()=>i(a,r.text)),m(e,t)}export{c as T};

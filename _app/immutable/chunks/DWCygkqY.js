@@ -1,1 +1,0 @@
-import"./CWj6FrbW.js";import{A as o,H as s,B as m,C as p,F as f}from"./1ORTWnUY.js";import{s as i}from"./p5fr1oOC.js";var h=o("<h1> </h1>");function c(e,r){var t=h(),a=p(t,!0);f(t),s(()=>i(a,r.text)),m(e,t)}export{c as T};
